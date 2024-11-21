@@ -1,0 +1,59 @@
+/* Model background */
+body {
+  background: url('https://www.shutterstock.com/image-photo/man-sitting-on-stairs-lifestyle-260nw-740474782.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.store-name {
+  font-family: "Caslon", serif;
+  font-size: 3rem;
+}
+
+.category-section {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.607);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.category-title {
+  font-family: "Georgia", serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: rgba(238, 233, 233, 0.905);
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.payment-images img {
+  width: 80px;
+  margin: 10px;
+}
